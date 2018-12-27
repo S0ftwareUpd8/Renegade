@@ -75,7 +75,7 @@ A: We have a small restrictive list of globally banned users, who are stored usi
 Q: Why did you switch from discord.js to Eris, Eris is so much harder REEEEEEEEEEEEEEEEEEEE
 -
 A: Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
-     It is also easier to manage, which built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
+     It is also easier to manage, with built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
 
 Q: Can I make pull requests with Discord.js? I don't know Eris.
 -
