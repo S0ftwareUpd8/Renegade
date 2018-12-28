@@ -60,36 +60,33 @@ If you don't want to host Renegade yourself, the public version is always availa
 
 ## FAQ ##
 
-Q: Does the bot have a website
+Does the bot have a website
 -
-A: Yes™. The dashboard is being worked on but probably will not be out for a while. You can view the site [here](http://beta.renegadebot.tk)
+Yes™. The dashboard is being worked on but probably will not be out for a while. You can view the site [here](http://beta.renegadebot.tk)
 
-Q: Can I have global admin perms 
+Can I have global admin perms 
 -
-A: No.
+No.
 
-Q: How do global bans work?
+How do global bans work?
 -
-A: We have a small restrictive list of globally banned users, who are stored using enmap and handled by guild join events. Users who are globally banned are reported by the community and accepted by the staff
+We have a small restrictive list of globally banned users, who are stored using enmap and handled by guild join events. Users who are globally banned are reported by the community and accepted by the staff
 
-Q: Why did you switch from discord.js to Eris, Eris is so much harder REEEEEEEEEEEEEEEEEEEE
+Why did you switch from discord.js to Eris, Eris is so much harder REEEEEEEEEEEEEEEEEEEE
 -
-A: Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
+Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
      It is also easier to manage, with built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
 
-Q: Can I make pull requests with Discord.js? I don't know Eris.
--
-A: Sadly not as this is an Eris based bot, but you are more than welcome to make a pull request on the discord.js version (https://github.com/S0ftwareUpd8/Renegade-old)
 
-Q: Why does Renegade require activation before joining a server?
+Why does Renegade require activation before joining a server?
 -
-A: I've implemented an activation system to prevent abuse from smaller servers trying to spam the bot with userbots, getting it ratelimited and causing hell for me and the           other devs with token resets and other annoying things. The scripts for this are not included in the repository, but they are not hard to make it you know intermediate          JavaScript.
+I've implemented an activation system to prevent abuse from smaller servers trying to spam the bot with userbots, getting it ratelimited and causing hell for me and the           other devs with token resets and other annoying things. The scripts for this are not included in the repository, but they are not hard to make it you know intermediate          JavaScript.
 
-Q: How do I get my server activated?
+How do I get my server activated?
 -
-A: Join the support server at https://discord.gg/ZHwZhDE and post your server ID and some info in the #server-requests channel and ping the @Help role. We'll activate it            shortly.
+Join the support server at https://discord.gg/ZHwZhDE and post your server ID and some info in the #server-requests channel and ping the @Help role. We'll activate it            shortly.
 
 
-Q: Why did you use .gitignore to cover up the token >:(
+Why did you use .gitignore to cover up the token >:(
 -
-A: heh
+heh
