@@ -14,11 +14,12 @@ module.exports = {
         msg.channel.createMessage(`<:tickYes:504014644269154331> Warned ${thisUser.username}#${thisUser.discriminator}`);
     },
     options: {
-        'description': 'Give a user a warning.',
-        'fullDescription': 'Adds a mod-log infraction and sends a message warning the user.',
-        'requirements': {
-          'permissions': {
-            'manageMessages': true
+        description: 'Give a user a warning.',
+        fullDescription: 'Adds a warning type infraction to the user and DMs then the warning reason.',
+        argsRequired: true
+        requirements: {
+          permissions: {
+            manageMessages: true
           }
         }
     }

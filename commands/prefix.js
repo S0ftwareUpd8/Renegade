@@ -8,10 +8,13 @@ module.exports = {
       msg.channel.createMessage(`Edited prefix to ${thisPrefix}`);
     },
     options: {
-        'description': 'Changes the servers prefix',
-        'requirements': {
-          'permissions': {
-            'manageGuild': true
+        description: 'Changes the servers prefix',
+        fullDescription: 'Edits the bot prefix on the current guild.',
+        aliases: [],
+        usage: 'prefix [ new prefix ]'
+        requirements: {
+          permissions: {
+            manageGuild: true
           }
         }
     }

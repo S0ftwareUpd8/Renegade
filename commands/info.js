@@ -41,6 +41,11 @@ module.exports = {
           name: 'Developers',
           value: 'S0ftwareUpd8#9999',
           inline: false
+        },
+        {
+          name: 'Support Server',
+          value: '[discord.gg/renegade](https://discord.gg/ZHwZhDE)',
+          inline: false
         }
       ],
       timestamp: new Date(msg.createdAt),
@@ -50,5 +55,11 @@ module.exports = {
       }
     };
     msg.channel.createMessage({ embed });
+  }, 
+  options: {
+    description: 'Gets information about the bot',
+    fullDescription: 'Provdes information about the bot, such as developers, contributers, hosting information, uptime, server count, and more.',
+    aliases: ['about', 'botinfo'],
+    usage: 'info'
   }
 };

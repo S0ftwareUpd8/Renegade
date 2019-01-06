@@ -9,7 +9,9 @@ module.exports = {
       await newmsg.edit(`Pong! \`${diff}ms\``);
     },
     options: {
-        'description': 'Displays the bot\'s latency.',
-        'fullDescription': 'Sends a message and edits to, how long it takes is the latency.'
+        description: 'Displays the bot\'s latency.',
+        fullDescription: 'Sends a message and edits to, how long it takes is the latency.',
+        aliases: [],
+        usage: 'ping'
     }
 };

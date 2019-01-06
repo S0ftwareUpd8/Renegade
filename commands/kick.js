@@ -14,11 +14,13 @@ module.exports = {
       }
     },
     options: {
-        'description': 'Kicks a user from the guild.',
-        'fullDescription': 'Removes a member from the server by ID or by mention.',
-        'requirements': {
-          'permissions': {
-            'kickMembers': true
+        description: 'Kicks a user from the guild.',
+        fullDescription: 'Removes a member from the server by ID or by mention.',
+        aliases: [],
+        usage: 'kick [user | snowflake] [reason]',
+        requirements: {
+          permissions: {
+            kickMembers: true
           }
         }
     }

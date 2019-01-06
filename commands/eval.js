@@ -23,6 +23,10 @@ module.exports = {
     if (evaled == undefined) {
       evaled = 'undefined';
     }
+    
+    if (evaled == 'undefned') {
+      evaled = 'undefined';
+    }
 
     if (evaled.length > 1900) {
       evaled = 'Response too large';
@@ -32,13 +36,13 @@ module.exports = {
   },
 
   options: {
-    'description': 'Evaluates JavaScript code.',
-    'fullDescription': 'Evaluates js code from Discord',
-    'aliases': ['e'],
-    'cooldown': 0,
-    'hidden': true,
-    'requirements': {
-      'userIDs': ['425023068004548618', '213632190557192192']
+    description: 'Evaluates JavaScript code.',
+    fullDescription: 'Evaluates js code from Discord',
+    aliases: ['e'],
+    cooldown: 0,
+    hidden: true,
+    requirements: {
+      userIDs: ['425023068004548618', '213632190557192192']
     }
   }
 };

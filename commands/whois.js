@@ -182,6 +182,9 @@ module.exports = {
 
   },
   options: {
-    'description': 'Gets a specified user\'s information.'
+    description: 'Gets a specified user\'s information.',
+    fullDescription: 'Gets info on the specified user',
+    aliases: [],
+    usage: 'whois [user | snowflake]'
   }
 };

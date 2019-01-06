@@ -2,11 +2,13 @@ const client = require('../client.js');
 
 module.exports = {
     name: '',
-    action: async (client, msg, args) => {
+    action: async (msg, args, client) => {
 
     },
     options: {
-        'description': '',
-        'fullDescription': ''
+        description: '',
+        fullDescription: '',
+        aliases: [],
+        usage: ''
     }
 };

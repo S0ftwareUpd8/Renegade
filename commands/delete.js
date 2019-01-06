@@ -11,11 +11,12 @@ module.exports = {
       }
     },
     options: {
-        'aliases': ['del'],
-        'description': 'Deletes a message',
-        'fullDescription': 'Deletes a message by ID.',
-        'requirements': {
-          'userIDs': ['425023068004548618']
+        description: 'Deletes a message',
+        fullDescription: 'Deletes a message by ID.',
+        aliases: ['del'],
+        usage: 'Delete [snowflake]',
+        requirements: {
+          userIDs: ['425023068004548618']
         }
     }
 };

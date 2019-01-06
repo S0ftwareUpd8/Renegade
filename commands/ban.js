@@ -13,12 +13,14 @@ module.exports = {
         }
     },
     options: {
-        'description': 'Bans a user from the server.',
-        'fullDescription': 'Bans a user from the server by ID or @mention.',
-        'requirements': {
-          'permissions': {
+        description: 'Bans a user from the server',
+        fullDescription: 'Bans a user from the current server by ID or mention',
+        aliases: [],
+        usage: 'ban [user | snowflake] [reason]',
+        requirements: {
+          permissions: {
             banMembers: true
-          }
         }
+      }
     }
 };

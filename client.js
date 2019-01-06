@@ -17,13 +17,16 @@ const client = new eris.CommandClient(config.token, {
   prefix: ['r.', '@mention ', '!'],
   defaultCommandOptions: {
     permissionMessage: 'You don\'t have permissions to run this command.',
-    cooldown: 2000,
-    cooldownMessage: 'You\'re being rate-limited!'
+    cooldown: 1000,
+    cooldownMessage: 'You\'re using this command too fast!'
   }
 });
 
-process.on('unhandledRejection', err => {
+client.on('unhandledRejection', err => {
   console.log(`Unhandled Rejection Error: ${err.stack}`);
+});
+client.on('error', err => {
+  console.log(`Error: ${err.stack}`);
 });
 
 module.exports = client;

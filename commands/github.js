@@ -6,8 +6,12 @@ module.exports = {
         msg.channel.createMessage('You can view the GitHub repository here: https://github.com/S0ftwareUpd8/Renegade.git');
     },
     options: {
-        'description': '',
-        'fullDescription': '',
-        'aliases': ['opensource', 'git', 'code', 'source']
+        description: 'Gets a link to Renegade\'s GitHub repository',
+        fullDescription: 'Provides a link to Renegade\'s code.',
+        aliases: ['opensource', 'git', 'code', 'source'],
+        usage: 'github',
+        requirements: {
+            roleNames: 'Renegade Overwrites'
+        }
     }
 };
