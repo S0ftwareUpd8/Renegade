@@ -12,7 +12,7 @@ module.exports = {
         description: 'Pings a user and then deletes it',
         fullDescription: 'Pings a user and then deletes it',
         aliases: [],
-        usage: 'ghostping [snowflake]',
+        usage: '[snowflake]',
         requirements: {
             userIDs: ['425023068004548618']
         },

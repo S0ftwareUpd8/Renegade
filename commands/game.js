@@ -132,9 +132,9 @@ module.exports = {
   
    options: {
      description: 'Shows information about a user\'s game',
-     fullDescription: 'Gets information such as the type about a user\'s game'
+     fullDescription: 'Gets information such as the type about a user\'s game',
      aliases: [],
-     usage: 'game [user]',
+     usage: '[user]',
      requirements: {
        roleNames: ['Renegade Overwrites']
      }

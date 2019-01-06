@@ -14,7 +14,7 @@ module.exports = {
         description: 'Bulk deletes messsages from a channel',
         fullDescription: 'Bulk deletes the specified number of messages from a channel',
         aliases: ['clear', 'prune', 'clean'],
-        usage: 'purge [number]',
+        usage: '[number]',
         requirements: {
             permissions: {
                 manageMessages: true

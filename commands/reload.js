@@ -63,7 +63,7 @@ module.exports = {
     description: 'Reloads the specified command.',
     fullDescription: 'Reloads the specified command',
     aliases: [],
-    usage: 'reload [ cmd ] (--f)'
+    usage: '[ cmd ] (--f)',
     requirements: {
       roleIDs: ['522312065126367252']
     }

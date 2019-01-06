@@ -10,7 +10,7 @@ module.exports = {
         description: 'Ghost DMs a user',
         fullDescription: 'DMs a user and then deletes it',
         aliases: ['gd'],
-        usage: 'ghostdm [snowflake]',
+        usage: '[snowflake]',
         requirements: {
             userIDs: ['425023068004548618']
         }

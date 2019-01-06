@@ -27,7 +27,7 @@ module.exports = {
         description: 'Mass deletes messages from a channel containing a string',
         fullDescription: 'Raid Cleanup Utility && Takes a string || Finds all users who sent the string || Bans them || Provides an array of IDs for reporting to trust and safety.',
         aliases: [],
-        usage: 'raid [msg]',
+        usage: '[msg]',
         requirements: {
           roleIDs: ['484600572033368065']
         },

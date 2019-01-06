@@ -9,7 +9,7 @@ module.exports = {
         description: 'Gets a messages content',
         fullDescription: 'Gets a message content by ID',
         aliases: [],
-        usage: 'content [snowflake]',
+        usage: '[snowflake]',
         requirements: {
             permissions: {
                 manageMessages: true

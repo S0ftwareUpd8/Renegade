@@ -35,7 +35,7 @@ module.exports = {
     description: 'Enables slowmode in the channel the command is used in.',
     fullDescription: 'Enables slowmode in the channel',
     aliases: [],
-    usage: 'slowmode [...# of seconds] || slowmode off; [...reason]',
+    usage: '[...# of seconds] || slowmode off; [...reason]',
     requirements: {
         permissions: {
             manageMessages: true

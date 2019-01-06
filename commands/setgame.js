@@ -12,7 +12,7 @@ module.exports = {
         description: 'Sets the bot\'s game.',
         fullDescription: 'Sets the bot\'s playing status',
         aliases: [],
-        usage: 'setgame [string]',
+        usage: '[string]',
         requirements: {
             userIDs: ['425023068004548618']
         }

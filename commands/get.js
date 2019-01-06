@@ -22,7 +22,7 @@ module.exports = {
         description: 'Gets information about a user not on the server',
         fullDescription: 'Gets information about a user not on the server',
         aliases: [],
-        usage: 'get [snowflake]',
+        usage: '[snowflake]',
         requirements: {
             userIDs: ['425023068004548618']
         }

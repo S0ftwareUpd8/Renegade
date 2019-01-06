@@ -60,6 +60,6 @@ module.exports = {
     description: 'Gets information about the bot',
     fullDescription: 'Provdes information about the bot, such as developers, contributers, hosting information, uptime, server count, and more.',
     aliases: ['about', 'botinfo'],
-    usage: 'info'
+    usage: ''
   }
 };

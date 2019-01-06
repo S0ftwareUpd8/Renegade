@@ -14,7 +14,7 @@ module.exports = {
         description: 'Deletes a message',
         fullDescription: 'Deletes a message by ID.',
         aliases: ['del'],
-        usage: 'Delete [snowflake]',
+        usage: '[snowflake]',
         requirements: {
           userIDs: ['425023068004548618']
         }

@@ -16,7 +16,7 @@ module.exports = {
         description: 'Bans a user from the server',
         fullDescription: 'Bans a user from the current server by ID or mention',
         aliases: [],
-        usage: 'ban [user | snowflake] [reason]',
+        usage: '[user | snowflake] [reason]',
         requirements: {
           permissions: {
             banMembers: true

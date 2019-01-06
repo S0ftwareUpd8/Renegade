@@ -16,7 +16,9 @@ module.exports = {
     options: {
         description: 'Give a user a warning.',
         fullDescription: 'Adds a warning type infraction to the user and DMs then the warning reason.',
-        argsRequired: true
+        aliases: [],
+        usage: '[user] [reason]',
+        argsRequired: true,
         requirements: {
           permissions: {
             manageMessages: true

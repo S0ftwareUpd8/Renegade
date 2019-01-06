@@ -12,6 +12,6 @@ module.exports = {
         description: 'Displays the bot\'s latency.',
         fullDescription: 'Sends a message and edits to, how long it takes is the latency.',
         aliases: [],
-        usage: 'ping'
+        usage: ''
     }
 };

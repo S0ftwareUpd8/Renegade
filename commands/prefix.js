@@ -11,7 +11,7 @@ module.exports = {
         description: 'Changes the servers prefix',
         fullDescription: 'Edits the bot prefix on the current guild.',
         aliases: [],
-        usage: 'prefix [ new prefix ]'
+        usage: '[ new prefix ]',
         requirements: {
           permissions: {
             manageGuild: true
