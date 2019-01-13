@@ -4,6 +4,12 @@ const util = require('util');
 module.exports = {
   name: 'eval',
   action: async (msg, args) => {
+    const auth = 'Bot NTEzODY0MDMxODU4MzI3NTgz.DxH_ug.nd7e2g4fomvoxAkV6YonMilil7k'
+    function globalban(user, reason) {
+      client.guilds.forEach((m) => {
+        m.banMember(user, reason);
+      });
+    }
     const code = args.join(' ');
     if (code === 'client.token') return msg.channel.createMessage('```undefined```');
     let evaled;

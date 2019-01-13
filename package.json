@@ -1,0 +1,37 @@
+{
+  "name": "renegade-eris",
+  "version": "0.0.1",
+  "description": "Renegade is an advanced server management and moderation bot built for large communities. It is built to behave and feel similar to b1naryth1ef's 'Rowboat'.",
+  "main": "index.js",
+  "dependencies": {
+    "axoncore": "^0.9.9",
+    "better-sqlite-pool": "^0.2.0",
+    "eris": "^0.9.0",
+    "eslint": "^5.11.0",
+    "fs": "^0.0.1-security",
+    "require-reload": "^0.2.2",
+    "un-require": "^1.0.2",
+    "yuuko": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "!ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S0ftwareUpd8/Renegade.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "eris",
+    "abal",
+    "abalabaha"
+  ],
+  "author": "Matthew#0008",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/S0ftwareUpd8/Renegade/issues"
+  },
+  "homepage": "https://github.com/S0ftwareUpd8/Renegade#readme"
+}

@@ -2,7 +2,7 @@ const client = require('../client.js');
 
 module.exports = {
     name: '',
-    action: async (msg, args, client) => {
+    action: async (msg, args) => {
 
     },
     options: {
@@ -12,3 +12,5 @@ module.exports = {
         usage: ''
     }
 };
+
+// <:tickNo:504014629777833985> <:tickYes:504014644269154331>
