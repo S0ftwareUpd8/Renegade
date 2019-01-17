@@ -12,5 +12,3 @@ module.exports = {
         usage: ''
     }
 };
-
-// <:tickNo:504014629777833985> <:tickYes:504014644269154331>

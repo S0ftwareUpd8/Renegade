@@ -29,4 +29,9 @@ client.on('error', err => {
   console.log(`Error: ${err.stack}`);
 });
 
+client.on('messageCreate', msg => {
+  let blacklist = ['425023068004548618'];
+  if (blacklist.includes(msg.author.id)) return;
+});
+
 module.exports = client;

@@ -9,9 +9,6 @@ module.exports = {
         description: 'Gets a link to Renegade\'s GitHub repository',
         fullDescription: 'Provides a link to Renegade\'s code.',
         aliases: ['opensource', 'git', 'code', 'source'],
-        usage: '',
-        requirements: {
-            roleNames: 'Renegade Overwrites'
-        }
+        usage: ''
     }
 };

@@ -8,7 +8,7 @@ module.exports = {
             const msgs = await msg.channel.getMessages('100');
             await msgs.forEach((m) => {
                 if(m.content.includes(args.join(' '))){
-                    if (!arr.includes(m.author.id) && !m.member.roles.includes('484600572033368065')) {
+                    if (!arr.includes(m.author.id) && !m.member.roles.includes('385947150997127169')) {
                         arr.push(m.author.id);
                         users.push(m.author.tag);
                     }
@@ -26,10 +26,10 @@ module.exports = {
     options: {
         description: 'Mass deletes messages from a channel containing a string',
         fullDescription: 'Raid Cleanup Utility && Takes a string || Finds all users who sent the string || Bans them || Provides an array of IDs for reporting to trust and safety.',
-        aliases: [],
+        aliases: ['cleanup'],
         usage: '[msg]',
         requirements: {
-          roleIDs: ['484600572033368065']
+          roleIDs: ['385947150997127169']
         },
         hidden: true
     }
