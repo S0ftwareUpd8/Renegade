@@ -10,7 +10,7 @@ Being written in Eris and ran with yarn, Renegade is extremely stable and robust
 Thank you to the following people for their help with development
 
 - TheSkele27#1337 (Hosting the bot)
-- Dutch van der Linde#0001 (Helpful with Eris and Discord.js, and allowing me to use commands from [his bot](https://github.com/LOCCouncil/Garnet))
+- Dutch van der Linde#0001 (~~being my personal support~~)
 
 ## How do I run it? ##
 Running Renegade locally isn't supported. The purpose of it being open source is to allow people to view and better understand how bots (this one in particular) work, and that it isn't hard to make one.
