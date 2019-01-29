@@ -72,7 +72,7 @@ How do global bans work?
 -
 We have a small restrictive list of globally banned users, who are stored using enmap and handled by guild join events. Users who are globally banned are reported by the community and accepted by the staff
 
-Why did you switch from discord.js to Eris, Eris is so much harder REEEEEEEEEEEEEEEEEEEE
+Why did you switch from discord.js to Eris reeeeeee
 -
 Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
      It is also easier to manage, with built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
@@ -89,4 +89,4 @@ Join the support server at https://discord.gg/ZHwZhDE and post your server ID an
 
 Why did you use .gitignore to cover up the token >:(
 -
-heh
+ha
