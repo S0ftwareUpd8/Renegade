@@ -3,6 +3,7 @@ if (Number(process.version.slice(1).split('.')[0]) < 8)
 
 const eris = require('eris');
 const config = require('./config.json');
+const Enmap = require('enmap');
 
 
 const client = new eris.CommandClient(config.token, {
