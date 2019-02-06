@@ -13,10 +13,9 @@ Thank you to the following people for their help with development
 - Dutch van der Linde#0001 (~~being my personal support~~)
 
 ## How do I run it? ##
-Running Renegade locally isn't supported. The purpose of it being open source is to allow people to view and better understand how bots (this one in particular) work, and that it isn't hard to make one.
+Running Renegade locally isn't supported. The purpose of it being open source is to allow people to view and better understand how bots work.
 If you'd like to run Renegade locally, feel free to, but please respect the license.
-Usually I don't get too serious, but running a bot without giving credit to me and the contributers (same goes for any other bots and their creators) when a license is in place is unlawful.
-Please note that this version is in a constant state of development, and is not finished. You can view the previous bots code which is written in [discord.js](https://github.com/discordjs/discord.js) at https://github.com/S0ftwareUpd8/Renegade-old.git.
+Please note that this version is in a constant state of development, and is not finished. 
 
 ## Can I contribute? ##
 Yes, simply make a pull request on the repository. Please try to follow my style, use ESLint if needed
