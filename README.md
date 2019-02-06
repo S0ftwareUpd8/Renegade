@@ -10,13 +10,12 @@ Being written in Eris and ran with yarn, Renegade is extremely stable and robust
 Thank you to the following people for their help with development
 
 - TheSkele27#1337 (Hosting the bot)
-- Dutch van der Linde#0001 (Helpful with Eris and Discord.js, and allowing me to use commands from [his bot](https://github.com/LOCCouncil/Garnet))
+- Dutch van der Linde#0001 (~~being my personal support~~)
 
 ## How do I run it? ##
-Running Renegade locally isn't supported. The purpose of it being open source is to allow people to view and better understand how bots (this one in particular) work, and that it isn't hard to make one.
+Running Renegade locally isn't supported. The purpose of it being open source is to allow people to view and better understand how bots work.
 If you'd like to run Renegade locally, feel free to, but please respect the license.
-Usually I don't get too serious, but running a bot without giving credit to me and the contributers (same goes for any other bots and their creators) when a license is in place is unlawful.
-Please note that this version is in a constant state of development, and is not finished. You can view the previous bots code which is written in [discord.js](https://github.com/discordjs/discord.js) at https://github.com/S0ftwareUpd8/Renegade-old.git.
+Please note that this version is in a constant state of development, and is not finished. 
 
 ## Can I contribute? ##
 Yes, simply make a pull request on the repository. Please try to follow my style, use ESLint if needed
@@ -68,19 +67,11 @@ Can I have global admin perms
 -
 No.
 
-How do global bans work?
--
-We have a small restrictive list of globally banned users, who are stored using enmap and handled by guild join events. Users who are globally banned are reported by the community and accepted by the staff
-
-Why did you switch from discord.js to Eris, Eris is so much harder REEEEEEEEEEEEEEEEEEEE
+Why do you use eris. djs is better reeeee
 -
 Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
-     It is also easier to manage, with built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
+     It is also easier to manage, with built in sharding, a command handler, and even support for per server custom commands.
 
-
-Why does Renegade require activation before joining a server?
--
-I've implemented an activation system to prevent abuse from smaller servers trying to spam the bot with userbots, getting it ratelimited and causing hell for me and the           other devs with token resets and other annoying things. The scripts for this are not included in the repository, but they are not hard to make it you know intermediate          JavaScript.
 
 How do I get my server activated?
 -
@@ -89,4 +80,4 @@ Join the support server at https://discord.gg/ZHwZhDE and post your server ID an
 
 Why did you use .gitignore to cover up the token >:(
 -
-heh
+ha
