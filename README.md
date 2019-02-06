@@ -68,19 +68,11 @@ Can I have global admin perms
 -
 No.
 
-How do global bans work?
--
-We have a small restrictive list of globally banned users, who are stored using enmap and handled by guild join events. Users who are globally banned are reported by the community and accepted by the staff
-
-Why did you switch from discord.js to Eris reeeeeee
+Why do you use eris. djs is better reeeee
 -
 Me and the other devs made the decision to switch to Eris because it's better suited for a bot like this. It offers more features, especially on a per-command basis.
-     It is also easier to manage, with built in sharding, a command handler, and even support for custom commands! Many large bots (Dyno included 👀) are written in Eris for some of the same reasons.
+     It is also easier to manage, with built in sharding, a command handler, and even support for per server custom commands.
 
-
-Why does Renegade require activation before joining a server?
--
-I've implemented an activation system to prevent abuse from smaller servers trying to spam the bot with userbots, getting it ratelimited and causing hell for me and the           other devs with token resets and other annoying things. The scripts for this are not included in the repository, but they are not hard to make it you know intermediate          JavaScript.
 
 How do I get my server activated?
 -
