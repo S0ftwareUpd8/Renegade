@@ -2,7 +2,7 @@
 
 [![Discord](https://img.shields.io/discord/484598254672281602.svg)](https://discord.gg/ZHwZhDE)
 
-Renegade is an open-source mod bot
+Renegade is an open-source mod bot.
 Considering the amount of mod bots there already are, I wouldn't say Renegade really has any advantages over them, but hey, at least it's something
 
 
